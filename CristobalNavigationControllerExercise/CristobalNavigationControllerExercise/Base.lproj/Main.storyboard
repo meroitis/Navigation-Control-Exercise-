@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tpu-y0-FTj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CristobalNavigationControllerExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dont Click The Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Anl-zQ-MbE">
+                                <rect key="frame" x="104" y="333" width="206" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LP0-kp-Aam"/>
+                    <connections>
+                        <segue destination="yOC-xQ-ybf" kind="show" identifier="pes1" id="2FF-3b-NrG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1023.1884057971015" y="112.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Os5-UT-Z3T">
+            <objects>
+                <viewController id="yOC-xQ-ybf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eba-uY-Kqc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2020-08-05 at 1.55.21 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="qxr-4O-lu3">
+                                <rect key="frame" x="0.0" y="122" width="414" height="774"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qxr-4O-lu3" firstAttribute="top" secondItem="qU9-vi-Wej" secondAttribute="top" id="SGD-6x-aua"/>
+                            <constraint firstItem="qxr-4O-lu3" firstAttribute="leading" secondItem="qU9-vi-Wej" secondAttribute="leading" id="f4c-OG-2Co"/>
+                            <constraint firstItem="qU9-vi-Wej" firstAttribute="bottom" secondItem="qxr-4O-lu3" secondAttribute="bottom" id="itf-FT-P2X"/>
+                            <constraint firstItem="qU9-vi-Wej" firstAttribute="trailing" secondItem="qxr-4O-lu3" secondAttribute="trailing" id="shM-wE-ZPg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qU9-vi-Wej"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h5N-Bl-X6R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HDA-tV-zRy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1775.3623188405797" y="115.84821428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0R7-bq-f8v">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tpu-y0-FTj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="swx-mv-R3m">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="27K-AW-Te5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1gA-3N-rry" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2020-08-05 at 1.55.21 PM.png" width="299" height="310"/>
+    </resources>
+</document>

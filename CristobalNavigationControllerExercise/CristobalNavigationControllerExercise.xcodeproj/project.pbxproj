@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9260ED6824DB2F8300AAAEE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260ED6724DB2F8300AAAEE0 /* AppDelegate.swift */; };
+		9260ED6A24DB2F8300AAAEE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260ED6924DB2F8300AAAEE0 /* SceneDelegate.swift */; };
+		9260ED6C24DB2F8300AAAEE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260ED6B24DB2F8300AAAEE0 /* ViewController.swift */; };
+		9260ED6F24DB2F8300AAAEE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9260ED6D24DB2F8300AAAEE0 /* Main.storyboard */; };
+		9260ED7124DB2F8500AAAEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9260ED7024DB2F8500AAAEE0 /* Assets.xcassets */; };
+		9260ED7424DB2F8500AAAEE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9260ED7224DB2F8500AAAEE0 /* LaunchScreen.storyboard */; };
+		9260ED7F24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260ED7E24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.swift */; };
+		9260ED8A24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260ED8924DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.swift */; };
+		9260ED9C24DB383700AAAEE0 /* Screen Shot 2020-08-05 at 1.55.21 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9260ED9B24DB383700AAAEE0 /* Screen Shot 2020-08-05 at 1.55.21 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9260ED7B24DB2F8500AAAEE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9260ED5C24DB2F8300AAAEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9260ED6324DB2F8300AAAEE0;
+			remoteInfo = CristobalNavigationControllerExercise;
+		};
+		9260ED8624DB2F8500AAAEE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9260ED5C24DB2F8300AAAEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9260ED6324DB2F8300AAAEE0;
+			remoteInfo = CristobalNavigationControllerExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9260ED6424DB2F8300AAAEE0 /* CristobalNavigationControllerExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CristobalNavigationControllerExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260ED6724DB2F8300AAAEE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9260ED6924DB2F8300AAAEE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9260ED6B24DB2F8300AAAEE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9260ED6E24DB2F8300AAAEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9260ED7024DB2F8500AAAEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9260ED7324DB2F8500AAAEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9260ED7524DB2F8500AAAEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9260ED7A24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CristobalNavigationControllerExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260ED7E24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CristobalNavigationControllerExerciseTests.swift; sourceTree = "<group>"; };
+		9260ED8024DB2F8500AAAEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9260ED8524DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CristobalNavigationControllerExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260ED8924DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CristobalNavigationControllerExerciseUITests.swift; sourceTree = "<group>"; };
+		9260ED8B24DB2F8500AAAEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9260ED9B24DB383700AAAEE0 /* Screen Shot 2020-08-05 at 1.55.21 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-08-05 at 1.55.21 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9260ED6124DB2F8300AAAEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260ED7724DB2F8500AAAEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260ED8224DB2F8500AAAEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9260ED5B24DB2F8300AAAEE0 = {
+			isa = PBXGroup;
+			children = (
+				9260ED6624DB2F8300AAAEE0 /* CristobalNavigationControllerExercise */,
+				9260ED7D24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests */,
+				9260ED8824DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests */,
+				9260ED6524DB2F8300AAAEE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9260ED6524DB2F8300AAAEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9260ED6424DB2F8300AAAEE0 /* CristobalNavigationControllerExercise.app */,
+				9260ED7A24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.xctest */,
+				9260ED8524DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9260ED6624DB2F8300AAAEE0 /* CristobalNavigationControllerExercise */ = {
+			isa = PBXGroup;
+			children = (
+				9260ED9B24DB383700AAAEE0 /* Screen Shot 2020-08-05 at 1.55.21 PM.png */,
+				9260ED6724DB2F8300AAAEE0 /* AppDelegate.swift */,
+				9260ED6924DB2F8300AAAEE0 /* SceneDelegate.swift */,
+				9260ED6B24DB2F8300AAAEE0 /* ViewController.swift */,
+				9260ED6D24DB2F8300AAAEE0 /* Main.storyboard */,
+				9260ED7024DB2F8500AAAEE0 /* Assets.xcassets */,
+				9260ED7224DB2F8500AAAEE0 /* LaunchScreen.storyboard */,
+				9260ED7524DB2F8500AAAEE0 /* Info.plist */,
+			);
+			path = CristobalNavigationControllerExercise;
+			sourceTree = "<group>";
+		};
+		9260ED7D24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				9260ED7E24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.swift */,
+				9260ED8024DB2F8500AAAEE0 /* Info.plist */,
+			);
+			path = CristobalNavigationControllerExerciseTests;
+			sourceTree = "<group>";
+		};
+		9260ED8824DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9260ED8924DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.swift */,
+				9260ED8B24DB2F8500AAAEE0 /* Info.plist */,
+			);
+			path = CristobalNavigationControllerExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9260ED6324DB2F8300AAAEE0 /* CristobalNavigationControllerExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9260ED8E24DB2F8500AAAEE0 /* Build configuration list for PBXNativeTarget "CristobalNavigationControllerExercise" */;
+			buildPhases = (
+				9260ED6024DB2F8300AAAEE0 /* Sources */,
+				9260ED6124DB2F8300AAAEE0 /* Frameworks */,
+				9260ED6224DB2F8300AAAEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CristobalNavigationControllerExercise;
+			productName = CristobalNavigationControllerExercise;
+			productReference = 9260ED6424DB2F8300AAAEE0 /* CristobalNavigationControllerExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9260ED7924DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9260ED9124DB2F8500AAAEE0 /* Build configuration list for PBXNativeTarget "CristobalNavigationControllerExerciseTests" */;
+			buildPhases = (
+				9260ED7624DB2F8500AAAEE0 /* Sources */,
+				9260ED7724DB2F8500AAAEE0 /* Frameworks */,
+				9260ED7824DB2F8500AAAEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9260ED7C24DB2F8500AAAEE0 /* PBXTargetDependency */,
+			);
+			name = CristobalNavigationControllerExerciseTests;
+			productName = CristobalNavigationControllerExerciseTests;
+			productReference = 9260ED7A24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9260ED8424DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9260ED9424DB2F8500AAAEE0 /* Build configuration list for PBXNativeTarget "CristobalNavigationControllerExerciseUITests" */;
+			buildPhases = (
+				9260ED8124DB2F8500AAAEE0 /* Sources */,
+				9260ED8224DB2F8500AAAEE0 /* Frameworks */,
+				9260ED8324DB2F8500AAAEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9260ED8724DB2F8500AAAEE0 /* PBXTargetDependency */,
+			);
+			name = CristobalNavigationControllerExerciseUITests;
+			productName = CristobalNavigationControllerExerciseUITests;
+			productReference = 9260ED8524DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9260ED5C24DB2F8300AAAEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cristobal Romero";
+				TargetAttributes = {
+					9260ED6324DB2F8300AAAEE0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9260ED7924DB2F8500AAAEE0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9260ED6324DB2F8300AAAEE0;
+					};
+					9260ED8424DB2F8500AAAEE0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9260ED6324DB2F8300AAAEE0;
+					};
+				};
+			};
+			buildConfigurationList = 9260ED5F24DB2F8300AAAEE0 /* Build configuration list for PBXProject "CristobalNavigationControllerExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9260ED5B24DB2F8300AAAEE0;
+			productRefGroup = 9260ED6524DB2F8300AAAEE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9260ED6324DB2F8300AAAEE0 /* CristobalNavigationControllerExercise */,
+				9260ED7924DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests */,
+				9260ED8424DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9260ED6224DB2F8300AAAEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260ED9C24DB383700AAAEE0 /* Screen Shot 2020-08-05 at 1.55.21 PM.png in Resources */,
+				9260ED7424DB2F8500AAAEE0 /* LaunchScreen.storyboard in Resources */,
+				9260ED7124DB2F8500AAAEE0 /* Assets.xcassets in Resources */,
+				9260ED6F24DB2F8300AAAEE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260ED7824DB2F8500AAAEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260ED8324DB2F8500AAAEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9260ED6024DB2F8300AAAEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260ED6C24DB2F8300AAAEE0 /* ViewController.swift in Sources */,
+				9260ED6824DB2F8300AAAEE0 /* AppDelegate.swift in Sources */,
+				9260ED6A24DB2F8300AAAEE0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260ED7624DB2F8500AAAEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260ED7F24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260ED8124DB2F8500AAAEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260ED8A24DB2F8500AAAEE0 /* CristobalNavigationControllerExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9260ED7C24DB2F8500AAAEE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9260ED6324DB2F8300AAAEE0 /* CristobalNavigationControllerExercise */;
+			targetProxy = 9260ED7B24DB2F8500AAAEE0 /* PBXContainerItemProxy */;
+		};
+		9260ED8724DB2F8500AAAEE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9260ED6324DB2F8300AAAEE0 /* CristobalNavigationControllerExercise */;
+			targetProxy = 9260ED8624DB2F8500AAAEE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9260ED6D24DB2F8300AAAEE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9260ED6E24DB2F8300AAAEE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9260ED7224DB2F8500AAAEE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9260ED7324DB2F8500AAAEE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9260ED8C24DB2F8500AAAEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9260ED8D24DB2F8500AAAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9260ED8F24DB2F8500AAAEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalNavigationControllerExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NavigationController-Exercise.CristobalNavigationControllerExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9260ED9024DB2F8500AAAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalNavigationControllerExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NavigationController-Exercise.CristobalNavigationControllerExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9260ED9224DB2F8500AAAEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalNavigationControllerExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NavigationController-Exercise.CristobalNavigationControllerExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CristobalNavigationControllerExercise.app/CristobalNavigationControllerExercise";
+			};
+			name = Debug;
+		};
+		9260ED9324DB2F8500AAAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalNavigationControllerExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NavigationController-Exercise.CristobalNavigationControllerExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CristobalNavigationControllerExercise.app/CristobalNavigationControllerExercise";
+			};
+			name = Release;
+		};
+		9260ED9524DB2F8500AAAEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalNavigationControllerExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NavigationController-Exercise.CristobalNavigationControllerExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CristobalNavigationControllerExercise;
+			};
+			name = Debug;
+		};
+		9260ED9624DB2F8500AAAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalNavigationControllerExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NavigationController-Exercise.CristobalNavigationControllerExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CristobalNavigationControllerExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9260ED5F24DB2F8300AAAEE0 /* Build configuration list for PBXProject "CristobalNavigationControllerExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260ED8C24DB2F8500AAAEE0 /* Debug */,
+				9260ED8D24DB2F8500AAAEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9260ED8E24DB2F8500AAAEE0 /* Build configuration list for PBXNativeTarget "CristobalNavigationControllerExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260ED8F24DB2F8500AAAEE0 /* Debug */,
+				9260ED9024DB2F8500AAAEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9260ED9124DB2F8500AAAEE0 /* Build configuration list for PBXNativeTarget "CristobalNavigationControllerExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260ED9224DB2F8500AAAEE0 /* Debug */,
+				9260ED9324DB2F8500AAAEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9260ED9424DB2F8500AAAEE0 /* Build configuration list for PBXNativeTarget "CristobalNavigationControllerExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9260ED9524DB2F8500AAAEE0 /* Debug */,
+				9260ED9624DB2F8500AAAEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9260ED5C24DB2F8300AAAEE0 /* Project object */;
+}
